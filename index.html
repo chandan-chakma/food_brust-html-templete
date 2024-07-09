@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>food_brust</title>
+</head>
+<body class="container md:mx-auto">
+
+    <!-- menu heading  -->
+     <div class="m-12">
+        <div class="navbar bg-rose-500 rounded-full flex justify-around">
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1 text-xl">
+                  <li><a>Home</a></li>
+                  <li><a>About US</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruit</a></li>
+                </ul>
+            </div>
+
+            <div class="flex-2">
+                <img class="w-10 h-10" src="/images/logo.png" alt="">
+              <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+          <!-- ===================================  -->
+            
+            <div class="flex-none gap-2">
+              <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+              </div>
+              <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img
+                      alt="Tailwind CSS Navbar component"
+                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>     
+    </div>
+    
+        <!-- banner part  -->
+    <div class="carousel w-full">
+        
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="/images/banner1.png" class="w-5/6 mx-auto" />
+            
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+           
+            
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <div>
+                <h1 class="text-3xl font-bold text-center text-white">Exotic tastes at your<br> doorstep</h1>
+                <p class="text-white font-normal">We supply highly quality organic products</p>
+                <button>Shop Now</button>
+            </div>
+            
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+          
+        </div>
+
+        
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+            class="w-5/6 mx-auto" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+            class="w-5/6 mx-auto" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+            class="w-5/6 mx-auto" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    <!-- =========================================  -->
+<!-- deal of the day section  -->
+    <section>
+            <div>
+                <h1>Deal of the day</h1>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div></div>
+
+    </section>
+  
+</body>
+</html>
