@@ -114,39 +114,200 @@
       </div>
     <!-- =========================================  -->
 <!-- deal of the day section  -->
-    <section class="m-10 flex justify-between">
+    <section class="m=10">
+        <div class="m-10 flex justify-between">
             <div>
                 <h1 class="text-3xl text-white font-bold">Deal of the day</h1>
                 <p class="mt-3 text-sm font-normal">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
-            <div><div class="grid auto-cols-max grid-flow-col gap-5 text-center">
-                <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                  <span class="countdown font-mono text-5xl">
-                    <span style="--value:15;"></span>
-                  </span>
-                  days
+            <div>
+                <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>
+                        </span>
+                             days
+                    </div>
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                    </span>
+                    hours
+                    </div>
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                    </span>
+                    min
+                    </div>
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                        <span style="--value:${counter};"></span>
+                    </span>
+                    sec
+                    </div>
                 </div>
-                <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                  <span class="countdown font-mono text-5xl">
-                    <span style="--value:10;"></span>
-                  </span>
-                  hours
-                </div>
-                <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                  <span class="countdown font-mono text-5xl">
-                    <span style="--value:24;"></span>
-                  </span>
-                  min
-                </div>
-                <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
-                  <span class="countdown font-mono text-5xl">
-                    <span style="--value:${counter};"></span>
-                  </span>
-                  sec
-                </div>
-              </div></div>
+            </div>
+        </div>
 
+        <div class="mt-10 grid grid-cols-4 justify-center gap-16">
+
+            <!-- first product  -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/fruit1.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p class="font-bold text-2xl">12.90$ - 18.85$</p>
+                    <h2 class="card-title">Apple</h2>
+
+                    <!-- rating===========  -->
+
+                    <div class="rating rating-md rating-half m-2">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input
+                          type="radio"
+                          name="rating-10"
+                          class="mask mask-star-2 mask-half-1 bg-rose-700"
+                          checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                      </div>
+                
+                  <div class="card-actions">
+                    <button class="text-rose-700 font-bold btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+              <!-- second product  -->
+              <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/fruit1.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p class="font-bold text-2xl">12.90$ - 18.85$</p>
+                    <h2 class="card-title">Apple</h2>
+
+                    <!-- rating===========  -->
+
+                    <div class="rating rating-md rating-half m-2">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input
+                          type="radio"
+                          name="rating-10"
+                          class="mask mask-star-2 mask-half-1 bg-rose-700"
+                          checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                      </div>
+                
+                  <div class="card-actions">
+                    <button class="text-rose-700 font-bold btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- third product  -->
+              <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/fruit1.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p class="font-bold text-2xl">12.90$ - 18.85$</p>
+                    <h2 class="card-title">Apple</h2>
+
+                    <!-- rating===========  -->
+
+                    <div class="rating rating-md rating-half m-2">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input
+                          type="radio"
+                          name="rating-10"
+                          class="mask mask-star-2 mask-half-1 bg-rose-700"
+                          checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                      </div>
+                
+                  <div class="card-actions">
+                    <button class="text-rose-700 font-bold btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- fourth product  -->
+
+              <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/fruit1.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p class="font-bold text-2xl">12.90$ - 18.85$</p>
+                    <h2 class="card-title">Apple</h2>
+
+                    <!-- rating===========  -->
+
+                    <div class="rating rating-md rating-half m-2">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input
+                          type="radio"
+                          name="rating-10"
+                          class="mask mask-star-2 mask-half-1 bg-rose-700"
+                          checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-rose-700" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-rose-700" />
+                      </div>
+                
+                  <div class="card-actions">
+                    <button class="text-rose-700 font-bold btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+             
     </section>
   
 </body>
