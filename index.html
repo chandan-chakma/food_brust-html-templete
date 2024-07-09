@@ -7,6 +7,9 @@
     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/f95324b004.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
     <title>food_brust</title>
 </head>
 <body class="container md:mx-auto">
@@ -31,7 +34,8 @@
             
             <div class="flex-none gap-2">
               <div class="form-control">
-                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                <input type="text" placeholder="Search"  class="input input-bordered w-24 md:w-auto" />
+               
               </div>
               <div class="dropdown dropdown-end">
                 <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
@@ -151,10 +155,10 @@
             </div>
         </div>
 
-        <div class="mt-10 grid grid-cols-4 justify-center gap-16">
+        <div class="mt-28 grid grid-cols-4 justify-center gap-16">
 
             <!-- first product  -->
-            <div class="card bg-base-100 w-96 shadow-xl">
+            <div class="card bg-base-100 w-72 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="/images/fruit1.png"
@@ -192,10 +196,10 @@
             </div>
 
               <!-- second product  -->
-              <div class="card bg-base-100 w-96 shadow-xl">
+              <div class="card bg-base-100 w-72 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/fruit1.png"
+                    src="/images/fruit2.png"
                     alt="Shoes"
                     class="rounded-xl" />
                 </figure>
@@ -230,10 +234,10 @@
               </div>
 
               <!-- third product  -->
-              <div class="card bg-base-100 w-96 shadow-xl">
+              <div class="card bg-base-100 w-72 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/fruit1.png"
+                    src="/images/fruit3.png"
                     alt="Shoes"
                     class="rounded-xl" />
                 </figure>
@@ -269,10 +273,10 @@
 
               <!-- fourth product  -->
 
-              <div class="card bg-base-100 w-96 shadow-xl">
+              <div class="card bg-base-100 w-72 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/fruit1.png"
+                    src="/images/fruit4.png"
                     alt="Shoes"
                     class="rounded-xl" />
                 </figure>
@@ -306,8 +310,109 @@
                 </div>
               </div>
         </div>
+        <button class="btn btn-error flex mx-auto mt-5 w-32">Show All</button>
         
              
+    </section>
+
+    <!-- team section  -->
+
+    <section class="mt-28 mx-auto p-28" id="team">
+        <div class="text-center">
+            <h1 class="font-bold text-3xl text-white mb-3">Meet the team section</h1>
+            <p class="font-normal text-sm text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+
+        <div class="grid grid-cols-4 justify-center mt-12">
+
+            <!-- first team member  -->
+            <div class="card w-64 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <div class="avatar online">
+                        <div class="w-24 rounded-full">
+                          <img src="/images/member1.png" />
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Awalad Hossain</h2>
+                  <p>Fruit Expert</p>
+                  <div class="card-actions">
+                    <!-- <button class="btn btn-primary">Buy Now</button> -->
+                     <img class="w-6 h-6" src="/images/facebook.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/twitter.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/instagram.png" alt="" srcset="">
+                  </div>
+                </div>
+            </div>
+            <!-- second team member  -->
+
+            <div class="card w-64 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <div class="avatar online">
+                        <div class="w-24 rounded-full">
+                          <img src="/images/member2.png" />
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Safia Chowdhury</h2>
+                  <p>Fruit Expert</p>
+                  <div class="card-actions">
+                    <!-- <button class="btn btn-primary">Buy Now</button> -->
+                     <img class="w-6 h-6" src="/images/facebook.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/twitter.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/instagram.png" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- third team member  -->
+
+              <div class="card w-64 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <div class="avatar online">
+                        <div class="w-24 rounded-full">
+                          <img src="/images/member3.png" />
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Rakib Hossain</h2>
+                  <p>Fruit Expert</p>
+                  <div class="card-actions">
+                    <!-- <button class="btn btn-primary">Buy Now</button> -->
+                     <img class="w-6 h-6" src="/images/facebook.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/twitter.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/instagram.png" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+ 
+              <!-- Fourth team member  -->
+
+              <div class="card w-64 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <div class="avatar online">
+                        <div class="w-24 rounded-full">
+                          <img src="/images/member4.png" />
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Chaity</h2>
+                  <p>Fruit Expert</p>
+                  <div class="card-actions">
+                    <!-- <button class="btn btn-primary">Buy Now</button> -->
+                     <img class="w-6 h-6" src="/images/facebook.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/twitter.png" alt="" srcset="">
+                     <img class="w-6 h-6" src="/images/instagram.png" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+
+              
+        </div>
     </section>
   
 </body>
